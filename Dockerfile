@@ -9,4 +9,4 @@ COPY . .
 
 EXPOSE 8080
 
-CMD ["adk", "web", "--host=0.0.0.0", "--port=8080", "my_caregiver_assistant_app/"]
+CMD ["adk", "web", "--host=0.0.0.0", "--port=8080", "--agent_dir=my_caregiver_assistant_app"]
